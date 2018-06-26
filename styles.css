@@ -16,7 +16,7 @@ section.main-section{
 section.main-content{
     height:100%;
     background: #ccc;
-    width: 70%;
+    width: 100%;
     padding: 3px;
     padding-bottom: 5em;
 }
@@ -109,4 +109,39 @@ div.blog-post-content > div.blog-post-desc{
     height: 80%;
 }
 
+/*Navbar section*/
+
+nav.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav.nav-bar > div{
+    background-color: #fff;
+    flex-basis: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav.nav-bar > div.logo{
+    background: #33ab77;
+}
+
+nav.nav-bar > div.search{
+    background: #333ab7;
+    margin-left: auto;
+    /*flex-grow: 1;
+    flex-shrink: 1;*/
+}
+
+nav.nav-bar > div.signin{
+    background:#ff2222;
+}
+
+nav.nav-bar > div.signup{
+    background:#000;
+    color: white;
+}
 
